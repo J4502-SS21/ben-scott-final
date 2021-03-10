@@ -1,0 +1,119 @@
+body{
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+
+nav{
+  background:#ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 3px;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'EB Garamond';
+  font-style: italic;
+}
+
+
+li {
+  float: none;
+  width: 33%;
+}
+
+h1 {
+font-family: 'Playfair Display';
+font-size: 40px;
+text-align: center;
+}
+
+p.byline {
+font-size: 20px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+text-indent: 0px;
+}
+
+p {
+text-indent: 50px;
+font-family: 'EB Garamond';
+max-width: 600px;
+font-size: 25px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.inner-photos {
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    gap: 1rem;
+    max-width: 600px;
+}
+
+.half {
+  width: 50%;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.half img {
+  width: 100%;
+}
+
+a.brown_box{
+  background-color: #92593C;
+}
+a.blue_box{
+  background-color: #065F93;
+}
+a.green_box{
+  background-color: #5D843A;
+}
+a.text{
+  text-indent: 50px;
+  font-family: 'EB Garamond';
+  text-align: left;
+}
+
+/* css for cacner alley and enterprise, la page */
+
+section.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1rem auto;
+  max-width: 700px;
+  text-align: left;
+  gap: 20px;
+}
+
+h1.cancerHeader {
+  text-align: left;
+}
+
+.infographic_spot {
+  display: flex;
+  flex-direction: row;
+  max-width: 600px;
+  margin: 1rem auto;
+  font-size: 25px;
+  text-indent: 50px;
+  font-family: 'EB Garamond';
+}
+.infographic_1 {
+  float: right;
+}
+
+/* css for enterprise, la*/
+
+/*
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
