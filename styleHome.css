@@ -5,11 +5,12 @@ margin-left: auto;
 }
 
 nav{
-  background:#ffffff;
-  padding: 20px;
+  background:#D1A635;
+  padding: 1px;
   margin-bottom: 20px;
   border-bottom: 3px;
   text-align: center;
+  color: black;
 }
 
 ul{
@@ -21,6 +22,11 @@ ul{
   font-style: italic;
 }
 
+a.list{
+color: black;
+text-decoration: none;
+text-transform: uppercase;
+}
 
 li {
   float: none;
@@ -39,6 +45,7 @@ text-align: center;
 margin-left: auto;
 margin-right: auto;
 text-indent: 0px;
+font-style: italic;
 }
 
 p {
@@ -83,6 +90,11 @@ a.text{
   text-align: left;
 }
 
+nav a:hover, p a.list:hover {
+  background-color:black;
+  color: #D1A635;
+}
+
 /* css for cacner alley and enterprise, la page */
 
 section.header {
@@ -113,6 +125,33 @@ h1.cancerHeader {
 }
 
 /* css for enterprise, la*/
+.company_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company {
+  border: 1px solid black;
+  margin: 1rem 0px;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1rem;
+  background: #DDDDDD;
+}
+
+.company img {
+  width:200px;
+}
+
+.company_text {
+  background: #FFFFFF;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
 
 /*
 font-family: 'EB Garamond', serif;
