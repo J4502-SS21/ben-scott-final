@@ -34,9 +34,21 @@ li {
 }
 
 h1 {
+  font-family: 'Playfair Display';
+  font-size: 40px;
+  text-align: center;  
+}
+
+h1.cancer {
 font-family: 'Playfair Display';
 font-size: 40px;
-text-align: center;
+text-align: left;
+}
+
+h1.enterprise {
+  font-family: 'Playfair Display';
+  font-size: 40px;
+  text-align: right;
 }
 
 p.byline {
@@ -84,10 +96,22 @@ a.blue_box{
 a.green_box{
   background-color: #A3B990;
 }
-a.text{
+p.text{
   text-indent: 50px;
   font-family: 'EB Garamond';
   text-align: left;
+}
+
+p.text-first {
+  text-indent: 0px;
+}
+
+a.dropcap {
+    float: left;
+    font-size: 64px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
 }
 
 nav a:hover, p a.list:hover {
@@ -107,8 +131,15 @@ section.header {
   gap: 20px;
 }
 
-h1.cancerHeader {
-  text-align: left;
+section.enterpriseHeader{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  margin: 1rem auto;
+  max-width: 700px;
+  text-align: right;
+  gap: 20px;
+
 }
 
 .infographic_spot {
