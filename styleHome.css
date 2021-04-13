@@ -22,6 +22,15 @@ ul{
   font-style: italic;
 }
 
+ul.footer-ul{
+  list-style-type: none;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'EB Garamond';
+  font-style: italic;
+}
+
 a.list{
 color: black;
 text-decoration: none;
@@ -39,16 +48,28 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: 'Playfair Display';
+  font-size: 30px;
+  text-align: center;
+}
+
 h1.cancer {
 font-family: 'Playfair Display';
 font-size: 40px;
-text-align: left;
+text-align: center;
+margin: 6rem auto;
+color: white;
+font-weight: bold;
 }
 
 h1.enterprise {
   font-family: 'Playfair Display';
   font-size: 40px;
-  text-align: right;
+  text-align: center;
+  margin: 5rem auto;
+  color: white;
+  font-weight: bold;
 }
 
 p.byline {
@@ -64,27 +85,23 @@ p {
 text-indent: 50px;
 font-family: 'EB Garamond';
 max-width: 600px;
-font-size: 25px;
+font-size: 20px;
 margin-left: auto;
 margin-right: auto;
 }
 
 .inner-photos {
-    width: 100%;
+    width: 100%%;
     margin: 1rem auto;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     gap: 1rem;
-    max-width: 600px;
+    max-width: 900px;
 }
-
-.half {
-  width: 50%;
-  gap: 12px;
-  display: flex;
-  flex-direction: column;
-}
-.half img {
+.inner-photos img{
   width: 100%;
+}
 }
 
 a.brown_box{
@@ -112,16 +129,18 @@ a.dropcap {
     line-height: 1;
     font-weight: bold;
     margin-right: 9px;
+    color: #D1A635;
 }
 
 nav a:hover, p a.list:hover {
-  background-color:black;
-  color: #D1A635;
+  background-color: #e6cc87;
+  color: #black;
+  font-weight: bold;
 }
 
 /* css for cacner alley and enterprise, la page */
 
-section.header {
+section.cancer_header{
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -131,15 +150,32 @@ section.header {
   gap: 20px;
 }
 
+section.cancer_full_header{
+  background-image: url("images/cancer_header.png");
+  background-size: auto;
+  background-position: center;
+}
+
 section.enterpriseHeader{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   width: 100%;
   margin: 1rem auto;
   max-width: 700px;
-  text-align: right;
+  text-align: center;
   gap: 20px;
+}
 
+section.companies_full_header{
+  background-image: url("images/companies_header.png");
+  background-size: auto;
+  background-position: center;
+}
+
+section.enterprise_full_header{
+  background-image: url("images/enterprise_header.png");
+  background-size: auto;
+  background-position: center;
 }
 
 .infographic_spot {
@@ -148,7 +184,7 @@ section.enterpriseHeader{
   max-width: 600px;
   margin: 1rem auto;
   font-size: 25px;
-  text-indent: 50px;
+  text-indent: 0px;
   font-family: 'EB Garamond';
 }
 .infographic_1 {
@@ -184,6 +220,16 @@ section.enterpriseHeader{
   box-sizing: border-box;
 }
 
+.tableauPlaceholder {
+  margin: 1rem auto;
+}
+
+/*image hover */
+
+
+
+/*end of image hover*/
+
 @media only screen and (min-width: 525px) {
 
   .company {
@@ -217,11 +263,15 @@ section.enterpriseHeader{
     justify-content: center;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
-    li {
+    ul {
+      display: flex;
+      flex-direction: column;
+      float: none;
+    }
+    li{
       width: 100%;
-      float: left;
     }
 
 }
