@@ -7,7 +7,6 @@ margin-left: auto;
 nav{
   background:#D1A635;
   padding: 1px;
-  margin-bottom: 20px;
   border-bottom: 3px;
   text-align: center;
   color: black;
@@ -15,11 +14,12 @@ nav{
 
 ul{
   list-style-type: none;
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   flex-direction: row;
   font-family: 'EB Garamond';
   font-style: italic;
+  margin: 10px;
 }
 
 ul.footer-ul{
