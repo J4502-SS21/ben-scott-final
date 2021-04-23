@@ -1,7 +1,7 @@
 body{
-display: block;
-margin-right: auto;
-margin-left: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 nav{
@@ -56,12 +56,12 @@ h2 {
 }
 
 h1.cancer {
-font-family: 'Playfair Display';
-font-size: 40px;
-text-align: center;
-margin: 6rem auto;
-color: white;
-font-weight: bold;
+  font-family: 'Playfair Display';
+  font-size: 40px;
+  text-align: center;
+  margin: 6rem auto;
+  color: white;
+  font-weight: bold;
 }
 
 h1.enterprise {
@@ -74,21 +74,21 @@ h1.enterprise {
 }
 
 p.byline {
-font-size: 20px;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-text-indent: 0px;
-font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-indent: 0px;
+  font-style: italic;
 }
 
 p {
-text-indent: 50px;
-font-family: 'EB Garamond';
-max-width: 600px;
-font-size: 20px;
-margin-left: auto;
-margin-right: auto;
+  text-indent: 50px;
+  font-family: 'EB Garamond';
+  max-width: 600px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .inner-photos {
