@@ -29,42 +29,32 @@
 
     <section class="enterprise_full_header">
       <section class="enterpriseHeader">
-        <h1 class="enterprise">Enterprise, LA:<br />A town along the<br />Mississippi River<br />with no clean water</h1>
+        <h1 class="enterprise">Enterprise, LA:<br />A town along<br />with no clean water</h1>
       </section>
     </section>
 
-  <p class="text-first"><a class="dropcap">D</a>uis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent.   Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et.
-  <br/>
-  <br/>
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-  <br>
-  <br/>
-    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-  <br>
-  <br/>
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-  <br>
-  <br>
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent  <br>
-  <br>
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent  <br>
-  <br>
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent  <br>
-  <br>
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-  <br>
-  <br>
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-  <br>
-  <br>
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-  <br>
-  <br>
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-  <br>
-  </p>
+  <p class="text-first"><a class="dropcap">D</a>uis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent.   Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et.</p>
 
-  </section>
+  <h3>Water violations by parish population impacted</h3>
+    <div class = "pop1" id="observablehq-PopChart-3925db1f"></div>
+        <p>Credit: <a href="https://observablehq.com/@benpedroscott/vega-cirlce-map">Explore the data and Observable notebook</a></p>
+          <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+            import define from "https://api.observablehq.com/@benpedroscott/vega-cirlce-map.js?v=3";
+            new Runtime().module(define, name => {
+              if (name === "PopChart") return new Inspector(document.querySelector("#observablehq-PopChart-3925db1f"));
+            });
+          </script>
+  <h3>Water violations by parish</h3>
+    <div id="observablehq-VioChart-fe5384dc"></div>
+        <p>Credit: <a href="https://observablehq.com/@benpedroscott/vega-cirlce-map">Explore the data and Observable notebook</a></p>
+          <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+            import define from "https://api.observablehq.com/@benpedroscott/vega-cirlce-map.js?v=3";
+            new Runtime().module(define, name => {
+              if (name === "VioChart") return new Inspector(document.querySelector("#observablehq-VioChart-fe5384dc"));
+            });
+          </script>
 
 <footer>
   <nav>
