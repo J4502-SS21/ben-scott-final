@@ -237,11 +237,13 @@ section.enterprise_full_header{
   margin: 1rem auto;
 }
 
-/*image hover */
+#scroller{
+  overflow: hidden;
+}
 
-
-
-/*end of image hover*/
+#menu_trigger {
+  display: none;
+}
 
 @media only screen and (min-width: 525px) {
 
@@ -278,13 +280,31 @@ section.enterprise_full_header{
 }
 @media (max-width: 700px) {
 
-    ul {
-      display: flex;
-      flex-direction: column;
-      float: none;
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  body{
+    padding: 1rem;
+  }
+
+  li {
+    width: 100%;
+    border-top: none;
+    border-bottom: none;
     }
-    li{
-      width: 100%;
+    #menu_trigger {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    #menu_nav {
+      display: none;
     }
 
 }
